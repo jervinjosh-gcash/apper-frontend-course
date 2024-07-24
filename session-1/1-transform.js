@@ -2,9 +2,10 @@ function transform(nums) {
     // let result = nums
     //     .map(num => num*num)
     //     .sort()
+
     let result = quicksort(nums).map(num => num*num)
     return result
-  }
+}
 
 function quicksort(array) {
     if(array.length < 2){

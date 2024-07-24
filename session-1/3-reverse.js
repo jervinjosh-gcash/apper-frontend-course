@@ -6,6 +6,6 @@ function reverse(word) {
     return res
 }
    
-   const word = 'hello'
-   const reversedWord = reverse(word)
-   console.log(reversedWord) // 'olleh'
+const word = 'hello'
+const reversedWord = reverse(word)
+console.log(reversedWord) // 'olleh'

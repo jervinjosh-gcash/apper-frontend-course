@@ -1,0 +1,438 @@
+.header{
+  height: 55px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  position: fixed;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-section{
+  left: 10px;
+  position: fixed;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.strava-logo, .search-icon, .dashboard-dropdown, .training-dropdown, .maps-button, .challenges-button, .trial-button, .notification-icon, .profile-dropdown, .upload-icon {
+  display: flex;
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(47, 255, 75);
+}
+
+
+.right-section{
+  right: 10px;
+  position: fixed;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+}
+
+
+
+.content{
+  top: 58px;
+  height: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  background-color: rgb(219, 214, 214);
+}
+
+.profile-section, .activity-section, .misc-section{
+  margin: 2px;
+  padding: 2px;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.profile-section{
+  min-width: 284px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  justify-content: flex-start;
+
+}
+
+.misc-section{
+  max-width: 284px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+
+.activity-section{
+  min-width: 562px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  justify-content: flex-start;
+}
+
+.athlete-profile, .effort-profile, .activity-box, .activity-filter, .challenges-box , .club-box, .friend-box{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(47, 255, 75);
+}
+
+.athlete-profile{
+  display: flex;
+  flex-direction: column;
+  position: relative
+}
+
+
+.activity-filter{
+  height: 40px;
+}
+
+.activity-box {
+  min-height: 238px;
+}
+
+.challenges-box {
+  min-height: 161px;
+}
+
+.club-box{
+  min-height: 137px;
+}
+
+.friend-box{
+  min-height: 365px;
+}
+
+.profile-stats, .latest-activity, .training-log-button {
+  width: 260px;
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 15, 154);
+}
+
+.profile-stats{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic, .profile-name, .profile-numbers, .latest-activity-label, .latest-activity-details{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(22, 220, 223);
+}
+
+.profile-pic{
+  width: 64px;
+  height: 64px;
+  text-align: center;
+}
+
+.profile-name{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 26px;
+  width: 240px;
+  text-align: center;
+}
+
+.profile-numbers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.following-stats, .follower-stats, .activities-stats {
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  text-align: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: orange;
+}
+
+
+.latest-activity-label{
+  height: 35px;
+}
+
+.latest-activity-details{
+  font-size: 16px;
+}
+
+.training-log-button {
+  height: 35px;
+}
+
+.sport-box, .effort-box{
+  width: 260px;
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 15, 154);
+}
+
+.sport-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sport-icon-box, .effort-box-header, .effort-box-date, .effort-box-trend,.effort-box-text, .effort-box-visual {
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(22, 220, 223);
+}
+
+.effort-box-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.effort-box-header-title, .effort-box-header-icon{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: orange;
+}
+
+.sport-icon-box{
+  width: 39px;
+}
+
+.activity-filter-button{
+  width: 198px;
+  height: 23px;
+}
+
+.activity-filter-button, .activity-details, .kudos-box, .activity-map{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 15, 154);
+}
+
+.activity-header, .activity-body{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(22, 220, 223);
+}
+
+.activity-header, .activity-body{
+  display: flex;
+  flex-direction: row;
+}
+
+.athlete-icon, .activity-header-details, .activity-icon, .activity-stats{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: orange;
+}
+
+.activity-title, .activity-metrics{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(235, 97, 180);
+}
+
+.activity-metrics{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.metrics{
+  height: 38px;
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(244, 248, 129);
+}
+
+.activity-map{
+  height: 200px;
+  text-align: center;
+}
+
+.kudos-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-box{
+  display: flex;
+}
+
+.kudos, .button-box {
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(22, 220, 223);
+}
+
+.kudos-button, .comment-button{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: orange;
+}
+
+.challenges-box{
+  display: flex;
+}
+
+.challenge-icon, .challenge-body{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 15, 154);
+}
+
+.challenge-header, .challenge-text, .all-challenges-button{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(22, 220, 223);
+}
+
+.club-header, .club-icon-box, .club-button-box{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 15, 154);
+}
+
+.club-icon-box , .club-button-box, .friend-button-box, .friend-body{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.club-icon, .club-button, .friend-photo, .friend-button, .friend-details{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(22, 220, 223);
+}
+
+.club-icon , .friend-photo{
+  width: 48px;
+  height: 48px;
+  text-align: center;
+}
+
+.friend-box-header, .friend-body, .friend-button-box{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(101, 15, 154);
+}
+
+.friend-name,  .mutual-text, .follow-button{
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  border: 1px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: orange;
+}
